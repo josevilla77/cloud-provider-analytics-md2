@@ -1,0 +1,10 @@
+fuente,registros,clave,nulos_destacados,observaciones
+customers_orgs.csv,80,org_id,"nps_score: 11","NPS entre -38 y 101"
+users.csv,800,user_id,"last_login: 139","sin claves duplicadas detectadas"
+resources.csv,400,resource_id,"tags_json: 83","sin claves duplicadas detectadas"
+support_tickets.csv,1000,ticket_id,"resolved_at: 240; csat: 254","CSAT entre 0 y 7"
+marketing_touches.csv,1500,touch_id,"sin nulos","sin claves duplicadas detectadas"
+nps_surveys.csv,92,"org_id + survey_date","nps_score: 19; comment: 10","NPS entre -16 y 68"
+billing_monthly.csv,240,invoice_id,"credits: 137","13 subtotales negativos"
+usage_events_stream,43200,event_id,"value: 877; unit: 2075; carbon_kg: 10800; genai_tokens: 40068","120 archivos; esquema v1/v2; 216 costos negativos"
+

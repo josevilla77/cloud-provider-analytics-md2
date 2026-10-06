@@ -1,0 +1,17 @@
+app_name: cloud-provider-analytics
+spark_master: local[*]
+shuffle_partitions: 8
+
+paths:
+  landing: data/landing
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
+  quarantine: data/quarantine
+  checkpoints: checkpoints
+
+serving:
+  provider: astradb
+  keyspace: cloud_analytics
+  # Las credenciales reales se cargarán mediante variables de entorno.
+

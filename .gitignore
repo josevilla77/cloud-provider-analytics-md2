@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.env
+data/landing/
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+checkpoints/
+*.log
+
