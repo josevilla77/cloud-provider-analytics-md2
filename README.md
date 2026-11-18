@@ -1,10 +1,29 @@
 # Cloud Provider Analytics
 
-Proyecto individual para la primera entrega de **Minería de Datos II - ISTEA**.
+Proyecto individual de **Minería de Datos II - ISTEA**.
 
 **Estudiante:** Jose Emiliano Villaverde  
 **Profesor:** Diego Mosquera  
-**Entrega:** 7 de octubre de 2026
+**Primera entrega:** 7 de octubre de 2026
+
+**Segunda entrega:** 18 de noviembre de 2026
+
+## Segunda entrega
+
+La implementación ejecutable está en [entrega 2](entrega%202/README.md).
+Incluye el notebook ejecutado en Colab, las capas Bronze/Silver/Gold en Parquet,
+Quarantine, el diagrama actualizado, las consultas CQL y sus capturas de resultados.
+La carga y las dos consultas en AstraDB están verificadas; la repetición de la
+carga diaria conserva 11.050 filas antes y después.
+
+Para ejecutar esta etapa, seguir el README de esa carpeta: **Colab con entorno
+2026.07, Python 3.12, CPU**. Los resultados se conservan en
+[Resultados_MD2_Jose.zip](entrega%202/Resultados_MD2_Jose.zip).
+
+## Documentación de la primera entrega
+
+Las secciones siguientes conservan el diseño inicial y las instrucciones de la
+primera entrega. Su estado y sus limitaciones corresponden a esa etapa.
 
 ## ¿De qué trata el proyecto?
 
@@ -32,7 +51,7 @@ Esta entrega se concentra en comprender el caso y dejar una base clara para la i
 - supuestos, riesgos y plan de trabajo;
 - exploración inicial reproducible.
 
-Todavía no se implementa el pipeline completo ni la conexión final con AstraDB.
+En la primera entrega todavía no se implementaba el pipeline completo ni la conexión final con AstraDB. Ambos se implementaron en la segunda entrega, enlazada arriba.
 
 ## Estructura
 
@@ -59,7 +78,7 @@ cloud-provider-analytics/
     └── test_estructura.py
 ```
 
-## Preparación del entorno
+## Preparación del entorno de la primera entrega
 
 Requisitos:
 
@@ -131,7 +150,7 @@ python -m unittest tests/test_estructura.py
 
 Las decisiones y temas todavía abiertos están documentados en [DECISIONS.md](DECISIONS.md).
 
-## Limitaciones actuales
+## Limitaciones de la primera entrega
 
 - No se implementó todavía el pipeline Bronze/Silver/Gold.
 - El streaming real se simulará leyendo los JSONL desde un directorio.
