@@ -1,0 +1,25 @@
+{
+  "clientes": 80,
+  "usuarios": 800,
+  "facturas": 240,
+  "eventos_bronze": 43200,
+  "eventos_silver": 40956,
+  "quarantine": 2244,
+  "gold": 11050,
+  "repeticion_sin_duplicados": true,
+  "prueba_tardios": [
+    "A",
+    "B"
+  ],
+  "astra": "conexión, carga y dos consultas verificadas",
+  "cassandra_antes": 11050,
+  "cassandra_despues": 11050,
+  "ranking_enviado": 262,
+  "costos_invalidos": 211,
+  "variables_silver": [
+    "requests",
+    "cpu_hours",
+    "storage_gb_hours"
+  ],
+  "origen": "Ejecución completa del notebook en Colab por Jose, 18/11/2026"
+}
