@@ -76,12 +76,18 @@ Las advertencias de negociación del protocolo no impidieron la conexión probad
 Si se cerró la conexión al terminar el paso 26, repetir desde el paso 21.
 Los errores detienen la ejecución; las salidas del notebook sirven como registro.
 
+## Evidencias publicadas
+
+El notebook ejecutado, el ZIP de resultados y los documentos están publicados
+en esta carpeta. Las capturas de las dos consultas en Astra están en
+[evidencias de funcionalidad en astra](evidencias%20de%20funcionalidad%20en%20astra/).
+La publicación y las capturas ya están completas.
+
 ## Pendientes priorizados
 
-- **Obligatorio antes de entregar:** guardar capturas de consultas y actualizar
-  el repositorio con el notebook ejecutado, documentos y resultados.
-  Incorporar las correcciones del primer parcial cuando se disponga del feedback.
-  Confirmar el alcance de analítica con el docente y completarlo si corresponde.
+- **Obligatorio para el cierre:** incorporar las correcciones del primer parcial
+  cuando se disponga del feedback. Confirmar el alcance de analítica con el docente
+  y completarlo si corresponde.
 - **Deseable para el MVP final:** comparar costos con facturación, analizar por
   sector y automatizar un reproceso de tardíos.
 - **Fuera de alcance de esta entrega:** Kafka, dashboard, Docker y despliegue continuo.
